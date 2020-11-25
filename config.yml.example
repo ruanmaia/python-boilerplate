@@ -1,0 +1,29 @@
+DEBUG           : true
+SECRET_KEY      : 'lh0_5Ae8eK-ocysE7-Vpcl-b4v7T8oeOk-mFLHNQ8Ak='
+VERSION         : 1.0.0
+CDN             : https://d3emvbbeeuagc0.cloudfront.net
+ENV             : development # development | staging | production
+SERVER_NAME     : local.webapplication
+JSON_SORT_KEYS  : false
+
+WEBSERVER:
+  HTTP_PORT: 9051
+  HTTP_HOST: 0.0.0.0
+
+AWS:
+  S3:
+    ACCESS_KEY: AKIASVQLYQPA7NFE5OFX
+    SECRET_KEY: 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
+  SES:
+    ACCESS_KEY  : AKIASVQLYQPASZRWQERM
+    SECRET_KEY  : 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
+    FROM        : contato@ustore.shop
+    TEST_FROM   : contato@ustore.shop 
+    TEST_TO     : ruancarlos.maia@gmail.com
+
+# ORATOR:
+#   DRIVER: mysql
+#   HOSTNAME: 127.0.0.1
+#   DATABASE: ustore
+#   USERNAME: usr_ruan
+#   PASSWORD: '123456'
